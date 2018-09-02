@@ -84,7 +84,7 @@ This way NoIFGo enables a project to fully utilise the power of interfaces witho
 
 * **Tobias Strandberg** - *Initial work*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/strtob01/noifgo/graphs/contributors) who participated in this project.
 
 ## License
 
