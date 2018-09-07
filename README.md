@@ -75,7 +75,7 @@ noifgo build
 The resulting binary will most probably be more performant since the interfaces were replaced by their implementations when compiling the project.
 Please note that *NoIFGo* backups your project files before making any changes and after the compilation finishes, *NoIFGo* restores the backuped files.
 
-This way *NoIFGo* enables a project to fully utilise the power of interfaces without paying a penalty except for longer compilation times when running *NoIFGo*. During development and testing the standard Go Tool is the recommended tool to use. *NoIFGo* should be used to produce a more optimized binary.
+This way *NoIFGo* enables a project to fully utilise the power of interfaces without paying a penalty except for longer compilation times when running *NoIFGo*. During development and testing the standard Go tool is the recommended tool to use. *NoIFGo* should be used to produce a more optimized binary.
 
 ### Limitations
 - Only one interface implementation may be defined in the project. If there are more NoIFGo returns an error. Test files are ignored, which means that interface implementations defined in test files do not count.
